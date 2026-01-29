@@ -1,4 +1,0 @@
-l=float(input())
-w=float(input())
-a = 1 * w
-print(f"{a:.2f}") 
