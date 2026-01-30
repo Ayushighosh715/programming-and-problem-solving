@@ -13,7 +13,7 @@ Write a Python program to calculate the area of a rectangle given its length and
 ---
 
 ## Flowchart
-![Flowchart](Area_Of_Rectangle.drawio.png)
+![Flowchart](flowchart.png)
 
 ---
 
