@@ -1,25 +1,25 @@
 ## Problem Statement
-Write a Python program that prompts the user to enter the Side Length of a square and computes the area of the square.
+Write a Python program that prompts the user to enter the triangle's base and height and computes the triangle's area.
 
 ---
 
 ## Algorithm
-1. Start  
-2. Read the side length s of the square
+1. Start.  
+2. Read the base b and height h of the triangle.
 3. Calculate the area using the formula:
-4. Area=𝑠×𝑠
-5. Display the area
-6. Stop
+   Area=0.5×𝑏×ℎ.
+4. Display the area.
+5. Stop.
 ---
 
 ## Flowchart
-![Flowchart](flowchart.png)
+![Flowchart](Area_Of_Triangle.drawio.png)
 
 ---
 
 ## Execution
 <p align="center">
-  <img src="Area_Of_triangle_Execution.png" width="900">
+  <img src="Area_Of_Triangle Execution.png" width="900">
 </p>
 
 
