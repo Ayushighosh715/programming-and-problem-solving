@@ -13,7 +13,7 @@ Write a Python program that prompts the user to enter the triangle's base and he
 ---
 
 ## Flowchart
-![Flowchart](Area_Of_Triangle.drawio.png)
+![Flowchart](flowchart.png)
 
 ---
 
