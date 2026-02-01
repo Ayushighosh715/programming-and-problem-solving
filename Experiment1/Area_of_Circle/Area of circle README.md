@@ -15,7 +15,7 @@ Use π = 3.14 and display the area.
 ---
 
 ## Flowchart
-![Flowchart](flowchart.png)
+![Flowchart](area_of_circle_flowchart.png)
 
 ---
 
