@@ -20,4 +20,4 @@ Use π = 3.14 and display the area.
 ---
 
 ## Execution
-<img src= "Area of Circle.png" ="900"/>
+<img src= "Area_of_Circle.png" ="900"/>
