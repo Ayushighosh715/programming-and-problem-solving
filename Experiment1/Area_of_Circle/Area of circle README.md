@@ -15,9 +15,9 @@ Use π = 3.14 and display the area.
 ---
 
 ## Flowchart
-![Flowchart](Screenshot%202026-02-04 20101643.png)
+![Flowchart](flowchart.png)
 
 ---
 
 ## Execution
-<img src="https://github.com/user-attachments/assets/9323d1d8-913a-473f-96ec-fb64f2d5c6a8" width="900"/>
+<img src= Screenshot%202026-02-04 20101643.png ="900"/>
