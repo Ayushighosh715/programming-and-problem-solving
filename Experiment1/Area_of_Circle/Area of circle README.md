@@ -20,6 +20,5 @@ Use π = 3.14 and display the area.
 ---
 
 ## Execution
-<p align="center">
 <img src= "Area_of_Circle.png"  width="900">
-</p>
+
