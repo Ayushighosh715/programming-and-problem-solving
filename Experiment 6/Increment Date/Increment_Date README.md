@@ -7,8 +7,8 @@ Write a Python program to check if a given date is valid. If the date is valid, 
 3.  Check if year > 0 and month is between 1 and 12
   If not → Print "Invalid Date" and Stop
 4. Find maximum days in the given month
-31 days → Jan, Mar, May, Jul, Aug, Oct, Dec
-30 days → Apr, Jun, Sep, Nov
+31 days → Jan, Mar, May, Jul, Aug, Oct, Dec:
+30 days → Apr, Jun, Sep, Nov;
 February → 28 days (29 if leap year)
 5. If day is not between 1 and max days → Print "Invalid Date" and Stop
 6. Increment date
