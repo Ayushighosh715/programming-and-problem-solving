@@ -18,5 +18,5 @@ Write a Python program to calculate the factorial of a number
 
 ## Execution
 <p align="center">
-  <img src="" width ="900">
+  <img src="Factorial of a Number.png.png" width ="900">
 </p>
