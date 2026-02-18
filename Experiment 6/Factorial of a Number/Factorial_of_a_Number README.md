@@ -11,4 +11,12 @@ Write a Python program to calculate the factorial of a number
 6. Print fact
 7. stop
 
-## Flowchart
+## Flowchart 
+![Flowchart]()
+
+--
+
+## Execution
+<p align="center">
+  <img src="" width ="900">
+</p>
