@@ -1,30 +1,60 @@
+
 ## Problem Statement
 Write a Python program to check if a given date is valid. If the date is valid, print the next day's date (incremented date). If the date is invalid, print "Invalid Date".
 
-## Algoritm
-1. Start
-2. Input day, month, year
-3.  Check if year > 0 and month is between 1 and 12
-  If not → Print "Invalid Date" and Stop
-4. Find maximum days in the given month
-31 days → Jan, Mar, May, Jul, Aug, Oct, Dec:
-30 days → Apr, Jun, Sep, Nov;
-February → 28 days (29 if leap year)
-5. If day is not between 1 and max days → Print "Invalid Date" and Stop
-6. Increment date
-If day < max days → day = day + 1
-Else if month < 12 → day = 1, month = month + 1
-Else → day = 1, month = 1, year = year + 1
-7. Print new date (DD-MM-YYYY)
-8. Stop
 
 
-## Flowchart 
-![Flowchart]()
+---
 
---
+## Algorithm
+1. Start.  
+2. Read day, month, and year from the user.
+3. If year ≤ 0
+      → Print "Invalid Date"
+      → Stop
+4. If month < 1 OR month > 12
+      → Print "Invalid Date"
+      → Stop
+5. If (year % 400 == 0)
+      → Set leap = True
+6. Else if (year % 100 == 0)
+      → Set leap = False
+7. Else if (year % 4 == 0)
+      → Set leap = True
+8. Else
+      → Set leap = False
+9. If month is 1, 3, 5, 7, 8, 10, or 12
+      → Set max_day = 31
+10. Else if month is 4, 6, 9, or 11
+      → Set max_day = 30
+11. Else if month == 2
+      → If leap == True
+      → Set max_day = 29
+      → Else
+      → Set max_day = 28
+11. If day < 1 OR day > max_day
+      → Print "Invalid Date"
+      → Stop
+12. Increment day by 1
+13. If day > max_day
+      → Set day = 1
+      → Increment month by 1
+14. If month > 12
+      → Set month = 1
+      → Increment year by 1
+15. Print "Next Date is: day/month/year"
+16. Stop.
+---
+
+## Flowchart
+<p align="center">
+  <img src="Increment date.jpg" width="900">
+</p
+
+---
 
 ## Execution
 <p align="center">
-  <img src="Increment Date.png" width ="900">
+  <img src="Increment Date.png" width="900">
 </p>
+
