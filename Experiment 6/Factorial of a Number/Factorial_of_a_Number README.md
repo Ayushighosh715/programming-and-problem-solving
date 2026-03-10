@@ -29,6 +29,6 @@ Write a Python program to calculate the factorial of a number n using loops.
 
 ## Execution
 <p align="center">
-  <img src="Factorial of a Number/Factorial of Number.png" width="900">
+  <img src="Factorial of Number.png" width="900">
 </p>
 
