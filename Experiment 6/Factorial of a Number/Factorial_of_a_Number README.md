@@ -1,22 +1,34 @@
-## Problem Statement 
-Write a Python program to calculate the factorial of a number 
- n using loops.
+
+## Problem Statement
+Write a Python program to calculate the factorial of a number n using loops.
+
+---
 
 ## Algorithm
-1. Start
-2. Read integer n
-3. Set fact = 1
-4. if n < 0, print "Factorial not defined" and go to step 8
-5. for i = 1 to n fact = fact * i
-6. Print fact
-7. stop
+1. Start.  
+2. Read a number n from the user.
+3. If n < 0
+    → Print "Factorial not defined for negative numbers"
+    → Stop
+4. Set fact = 1
+5. Set i = 1
+6. Repeat while i ≤ n
+    → fact = fact × i
+    → i = i + 1
 
-## Flowchart 
-![Flowchart]()
+7. Print "Factorial of n is fact"
+8. Stop.
+---
 
---
+## Flowchart
+<p align="center">
+  <img src="fact.drawio.png" width="900">
+</p
+
+---
 
 ## Execution
 <p align="center">
-  <img src="Factorial of Number.png" width ="900">
+  <img src="Factorial of a Number.png" width="900">
 </p>
+
