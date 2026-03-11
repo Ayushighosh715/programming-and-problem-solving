@@ -4,6 +4,7 @@ Punctuation marks are special characters that are not letters, digits, or spaces
 The program should keep all letters (uppercase and lowercase), digits, and spaces, but remove all punctuation marks.
 
 #Code#
+
 str = input()
 
 new_st =""
