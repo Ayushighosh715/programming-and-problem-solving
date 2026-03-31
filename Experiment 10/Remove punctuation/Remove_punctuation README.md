@@ -23,11 +23,11 @@ Write a Python program to remove all punctuation marks from a given string and p
 
 ## Flowchart
 ![Flowchart](
-rp.drawio.png)
+RP.drawio.png)
 
 ---
 
 ## Execution
 <p align="center">
-  <img src="RP.png" width="900">
+  <img src="rp.png" width="900">
 </p>
