@@ -30,5 +30,5 @@ Palin.drawio.png)
 
 ## Execution
 <p align="center">
-  <img src="Palin.png" width="900">
+  <img src="Palindrome or not.png" width="900">
 </p>
