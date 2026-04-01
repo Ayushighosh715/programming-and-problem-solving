@@ -23,7 +23,7 @@ Write a recursive function sum_of_digits_recursive(n) that calculates the sum of
 
 ## Flowchart
 ![Flowchart](
-Rec.drawio.png)
+RC.drawio.png)
 
 ---
 
