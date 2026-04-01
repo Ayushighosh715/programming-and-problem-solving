@@ -5,7 +5,6 @@ Write a Python program to manage a phone number database using a dictionary. The
 
 ##Code
 
-# Phone Number Database using Dictionary
 n = int(input())
 contacts = {}
 
@@ -25,3 +24,8 @@ for _ in range(n):
 		else:
 			for name in sorted(contacts):
 				print(f"{name}: {contacts[name]}")
+
+----
+
+## Algorithm 
+
