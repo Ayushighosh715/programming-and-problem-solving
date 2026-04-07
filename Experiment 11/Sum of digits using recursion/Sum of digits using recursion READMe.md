@@ -4,20 +4,27 @@ Write a recursive function sum_of_digits_recursive(n) that calculates the sum of
 
 ---
 
-## Algorithm
-1.Start
+## Algorithm:
 
-2.Read number n
+Step 1: Start
 
-3.If n == 0 → return 0
+Step 2: Input an integer n
 
-4.Else → return last digit + recursive call
+Step 3: Call function sum (n)
 
-5.Call function
+Step 4: If n == 0, return 0
 
-6.Print result
+Step 5: Else compute:
 
-7.Stop
+a) r = n% 10 (last digit)
+
+b) q = n // 10 (remaining number)
+
+Step 6: Return r + sum (q)
+
+Step 7: Print the result
+
+Step 8: Stop
 
 ---
 
