@@ -31,7 +31,7 @@ Step 11: Stop
 
 ## Flowchart
 ![Flowchart](
-Sum of number.drawio(1).png
+Sum of number.png)
 
 ---
 
