@@ -31,7 +31,7 @@ Aggregate < 40 : Fail.
 12. Stop.
 
 ## Flowchart
-![Flowchart](Stud_Agg.drawio.png)
+![Flowchart](Stud_Agg.drawio.jpeg)
 
 ---
 
