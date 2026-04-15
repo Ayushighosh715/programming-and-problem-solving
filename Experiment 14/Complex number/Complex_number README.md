@@ -15,15 +15,13 @@ class Complex:
 			print(f"{self.real} + {self.imag}i")
 		else:
 			print(f"{self.real} - {abs(self.imag)}i")
-# Create three instances
 c1 = Complex()
 c2 = Complex()
 c3 = Complex()
 
-# Initialize two complex numbers
+
 c1.initComplex()
 c2.initComplex()
 
-# Compute and display sum
 c3.sum(c1, c2)
 c3.display()
