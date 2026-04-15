@@ -1,31 +1,34 @@
 ## Problem Statement
 Write a Python program to manage a phone number database using a dictionary. The dictionary stores contact names as keys and phone numbers as values.
 
-----
+---
 
-##Code
+## Algorithm
+1.Start
 
-n = int(input())
-contacts = {}
+2.Create empty dictionary
 
-for _ in range(n):
-	cmd = input().split()
+3.Read number of operations
 
-	if cmd[0] == "ADD":
-		contacts[cmd[1]] = cmd[2]
+4.For each operation:
 
-	elif cmd[0] == "REMOVE":
-		if cmd[1] in contacts:
-			del contacts[cmd[1]]
+  If ADD → insert contact
+  
+  If REMOVE → delete contact
+  
+  If DISPLAY → print all contacts (sorted) or "No contacts"
+  
+5.Stop
 
-	elif cmd[0] == "DISPLAY":
-		if len(contacts) == 0:
-			print("No contacts")
-		else:
-			for name in sorted(contacts):
-				print(f"{name}: {contacts[name]}")
+---
 
-----
+## Flowchart
+![Flowchart](
+Rec.drawio.png)
 
-## Algorithm 
+---
 
+## Execution
+<p align="center">
+  <img src="Phone Number.png" width="900">
+</p>
