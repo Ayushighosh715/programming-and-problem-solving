@@ -16,12 +16,16 @@ class Complex:
 		else:
 			print(f"{self.real} - {abs(self.imag)}i")
 c1 = Complex()
+
 c2 = Complex()
+
 c3 = Complex()
 
 
 c1.initComplex()
+
 c2.initComplex()
 
 c3.sum(c1, c2)
+
 c3.display()
