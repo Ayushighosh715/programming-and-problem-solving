@@ -24,7 +24,7 @@ Write a Python program to manage a phone number database using a dictionary. The
 
 ## Flowchart
 ![Flowchart](
-Phone.drawio.png)
+phone.drawio.png)
 
 ---
 
