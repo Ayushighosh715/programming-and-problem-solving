@@ -1,31 +1,42 @@
-## Algorithm 
+## Problem Statement
 Write a Python program using a class named Complex to add two complex numbers.
 
-## Code
-class Complex:
-	def initComplex(self):
-		self.real,self.imag = map(int, input().split())
+---
 
-	def sum(self, c1, c2):
-		self.real = c1.real + c2.real
-		self.imag = c1.imag + c2.imag
+## Algorithm
+Step 1: Start
 
-	def display(self):
-		if self.imag >= 0:
-			print(f"{self.real} + {self.imag}i")
-		else:
-			print(f"{self.real} - {abs(self.imag)}i")
-c1 = Complex()
+Step 2: Create three objects:
+            c1, c2, c3 of class Complex
 
-c2 = Complex()
+Step 3: Input first complex number:
+            Read real and imaginary part
+            Store in c1.real and c1.imag
 
-c3 = Complex()
+Step 4: Input second complex number:
+            Read real and imaginary part
+            Store in c2.real and c2.imag
 
+Step 5: Compute sum:
+            c3.real ← c1.real + c2.real
+            c3.imag ← c1.imag + c2.imag
 
-c1.initComplex()
+Step 6: Display result:
+            If c3.imag ≥ 0
+                Print: c3.real + c3.imag i
+            Else
+                Print: c3.real - |c3.imag| i
 
-c2.initComplex()
+Step 7: Stop
+---
 
-c3.sum(c1, c2)
+## Flowchart
+![Flowchart](
+VC.dComplex.png)
 
-c3.display()
+---
+
+## Execution
+<p align="center">
+  <img src="Complex.png" width="900">
+</p>
